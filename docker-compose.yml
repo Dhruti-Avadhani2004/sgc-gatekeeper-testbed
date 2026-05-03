@@ -1,0 +1,7 @@
+version: "3"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: supersecretpassword
+      POSTGRES_USER: admin
